@@ -73,21 +73,6 @@ kit diff filename.js
 
 Shows line-by-line differences between working files and the last commit.
 
-## How It Works
-
-Kit stores repository data in a `.kit` directory:
-
-```
-.kit/
-├── HEAD              # Points to the current branch
-├── index             # Staging area (JSON)
-├── objects/          # Content-addressed file storage
-│   └── {sha1-hash}   # Stored file contents and commits
-└── refs/
-    └── heads/
-        └── main      # Branch reference
-```
-
 ### Commits
 
 Each commit contains:
