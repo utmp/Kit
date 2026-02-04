@@ -1,0 +1,31 @@
+{
+  "name": "kit",
+  "version": "1.0.0",
+  "description": "Kit - A lightweight version control system",
+  "type": "module",
+  "main": "kit.js",
+  "bin": {
+    "kit": "./cli.js"
+  },
+  "scripts": {
+    "start": "bun run cli.js",
+    "dev": "bun run index.js"
+  },
+  "keywords": [
+    "version-control",
+    "vcs",
+    "git-alternative",
+    "cli"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^12.0.0"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  }
+}
